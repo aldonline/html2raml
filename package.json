@@ -1,0 +1,28 @@
+{
+  "name": "html2raml",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Aldo Bucchi <aldo.bucchi@gmail.com>",
+  "main": "lib/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "make test",
+    "build": "coffee -c lib/",
+    "clean": "rm lib/*.js",
+    "prepublish": "npm run build",
+    "postpublish": "npm run clean"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "chai": "~1.5.0",
+    "coffee-script": "~1.6.3"
+  },
+  "repository": "",
+  "dependencies": {
+    "jquery": "~1.8.3",
+    "html-minifier": "~0.5.4",
+    "underscore": "~1.5.2",
+    "optimist": "~0.6.0",
+    "jsdom": "~0.8.4"
+  }
+}
