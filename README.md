@@ -6,7 +6,6 @@ html2raml ./home.html -o ./home.raml.coffee
 # Caveats
 
 This code is so buggy that it will most likely destroy your computer.
-Seriously. It was built in under 30 minutes. LOTS of pending stuff. But its a start.
 
 # Strategy
 
